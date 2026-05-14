@@ -1,0 +1,5 @@
+ec2-key
+ec2-key.pub
+.terraform.lock.hcl
+.terraform
+.terraform/
