@@ -74,3 +74,9 @@ resource "aws_instance" "this" {
 
 }
 
+
+resource "aws_instance" "this2" {
+  ami           = "unknown"
+  instance_type = "unknown" #we canot add ami here ,
+
+}
