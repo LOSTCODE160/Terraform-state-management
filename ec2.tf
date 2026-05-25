@@ -76,7 +76,6 @@ resource "aws_instance" "this" {
 
 
 resource "aws_instance" "this2" {
-  ami           = "unknown"
-  instance_type = "unknown" #we canot add ami here ,
-
+  ami           = "ami-091138d0f0d41ff90"
+  instance_type = "t3.micro"
 }
